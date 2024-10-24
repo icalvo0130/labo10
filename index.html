@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tareas</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>¿Qué tienes por hacer hoy?</h1>
+        <input type="text" id="nueva-tarea" placeholder="Escribe una nueva tarea...">
+        <button id="agregar-tarea">Agregar tarea</button>
+
+        <div class="tableros">
+            <div class="tablero" id="pendientes">
+                <h2>Pendientes</h2>
+                <ul id="lista-pendientes"></ul>
+            </div>
+            <div class="tablero" id="haciendo">
+                <h2>Haciendo</h2>
+                <ul id="lista-haciendo"></ul>
+            </div>
+            <div class="tablero" id="completadas">
+                <h2>Completada</h2>
+                <ul id="lista-completadas"></ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

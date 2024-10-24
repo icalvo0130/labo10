@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #003366;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    color: #003366;
+}
+
+input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #003366;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007acc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005fa3;
+}
+
+.tableros {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.tablero {
+    background-color: #e6f2ff;
+    border: 1px solid #003366;
+    width: 30%;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #003366;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #cce5ff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li button {
+    background-color: #007acc;
+    color: white;
+    border: none;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 50%;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+li button.eliminar {
+    background-color: #ff4d4d;
+}
+
+li button:hover {
+    background-color: #005fa3;
+}
+
+li button.eliminar:hover {
+    background-color: #cc0000;
+}
